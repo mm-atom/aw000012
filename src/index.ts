@@ -1,3 +1,7 @@
-
-export default async function aw12(param1: string) {
+/**
+ * 移除某个key
+ * @param key 键
+ */
+export default function remove(key: string) {
+	sessionStorage.removeItem(key);
 }
